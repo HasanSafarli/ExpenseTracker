@@ -30,6 +30,13 @@ struct TransactionRow: View {
                     .foregroundColor(.secondary)
             }
             
+            Spacer()
+            
+            //MARK: Transaction Amount
+            Text(transaction.signedAmount, format: .currency(code: "USD"))
+                .bold()
+                .foregroundColor(transaction.type == TransactionType.credit.rawValue ? Color.text : .primary)
+            
         }
         .padding([.top, .bottom], 8)
     }
