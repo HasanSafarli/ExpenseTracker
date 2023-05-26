@@ -19,6 +19,7 @@ struct ContentView: View {
                 }
                 .padding()
                 .frame(maxWidth: .infinity)
+                
             }
             .background(Color.background)
             .navigationBarTitleDisplayMode(.inline)
@@ -40,6 +41,7 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
             ContentView()
+                .preferredColorScheme(.dark)
         }
     }
 }
