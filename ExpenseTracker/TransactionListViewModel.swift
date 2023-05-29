@@ -69,6 +69,7 @@ final class TransactionListViewModel: ObservableObject {
             let dailyTotal = dailyExpenses.reduce(0) { $0 - $1.signedAmount}
             
             sum += dailyTotal
+            sum = sum.roundedTo2Digits()
             cumulativeSum.append((date.formatted(), sum))
             print(date.formatted(), "dailyTotal:", dailyTotal, "sum:", sum)
         }
