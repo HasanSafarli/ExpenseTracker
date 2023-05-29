@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		996616072A24B22D00579F6C /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 996616062A24B22D00579F6C /* TransactionList.swift */; };
 		99EB60BA2A2085C300AC106E /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99EB60B92A2085C300AC106E /* RecentTransactionList.swift */; };
 		99F9ADC72A1F28050091F5B3 /* ExpenseTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9ADC62A1F28050091F5B3 /* ExpenseTrackerApp.swift */; };
 		99F9ADC92A1F28050091F5B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99F9ADC82A1F28050091F5B3 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		996616062A24B22D00579F6C /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 		99EB60B92A2085C300AC106E /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 		99F9ADC32A1F28050091F5B3 /* ExpenseTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99F9ADC62A1F28050091F5B3 /* ExpenseTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerApp.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 				99F9ADC82A1F28050091F5B3 /* ContentView.swift */,
 				99F9ADDA2A1F36C90091F5B3 /* TransactionRow.swift */,
 				99F9ADDF2A1F68F90091F5B3 /* TransactionListViewModel.swift */,
+				996616062A24B22D00579F6C /* TransactionList.swift */,
 				99EB60B92A2085C300AC106E /* RecentTransactionList.swift */,
 				99F9ADD62A1F33980091F5B3 /* TransactionModel.swift */,
 				99F9ADD42A1F2CDD0091F5B3 /* Extensions.swift */,
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99F9ADD92A1F359B0091F5B3 /* PreviewData.swift in Sources */,
+				996616072A24B22D00579F6C /* TransactionList.swift in Sources */,
 				99EB60BA2A2085C300AC106E /* RecentTransactionList.swift in Sources */,
 				99F9ADD72A1F33980091F5B3 /* TransactionModel.swift in Sources */,
 				99F9ADC92A1F28050091F5B3 /* ContentView.swift in Sources */,
